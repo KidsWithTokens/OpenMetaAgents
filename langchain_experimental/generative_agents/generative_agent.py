@@ -291,7 +291,7 @@ Relevant context:
             "You are {name}."
             + "Convert the following observation to first person past tense:\n"
             + "{observation}"
-            + "\n\nObservation: "
+            + "\n\nFirst Person Past Tense: "
         )
         
         return (
