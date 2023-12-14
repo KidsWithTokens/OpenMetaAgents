@@ -284,3 +284,18 @@ Relevant context:
         return (
             f"{summary}\nIt is {current_time_str}.\n{self.name}'s status: {self.status}"
         )
+
+    def convert_to_first(self, observation) -> str:
+        """"""
+        prompt = PromptTemplate.from_template(
+            "You are {name}."
+            + "Convert the following observation to first person past tense:\n"
+            + "{observation}"
+            + "\n\nObservation: "
+        )
+        
+        return (
+            self.chain(prompt)
+            .run(name=self.name, observation=observation)
+            .strip()
+        )
