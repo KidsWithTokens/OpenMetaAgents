@@ -47,7 +47,7 @@ for repeats in range(5):
     for i in town_people.keys():
       if locations[i] == location:
         people.append(i)
-        people_description.append(action_results[i])
+        people_description.append("The action of " + i + " is " + action_results[i])
 
     for i in people: # add observation to memory and react
       logger.log("Mind Tree of people: ", i)
@@ -58,7 +58,8 @@ for repeats in range(5):
 
       logger.log("For people %s, The observation is: %s \n" % (i, observation))
 
-      agents[i].memory.add_memory(observation)
+      mem = agents[i].convert_to_first(observation)
+      agents[i].memory.add_memory(mem)
       _, reaction = agents[i].generate_reaction(observation)
       action_results[i] = reaction
 
