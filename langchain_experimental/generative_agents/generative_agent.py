@@ -241,16 +241,16 @@ Relevant context:
     def _compute_agent_summary(self) -> str:
         """"""
         prompt = PromptTemplate.from_template(
-            "How would you summarize {name}'s core characteristics given the"
+            "How would you summarize {name}'s background given the"
             + " following statements:\n"
             + "{relevant_memories}"
-            + "Do not embellish."
+            # + "Do not embellish."
             + "\n\nSummary: "
         )
-        # The agent seeks to think about their core characteristics.
+        # The agent seeks to think about their background.
         return (
             self.chain(prompt)
-            .run(name=self.name, queries=[f"{self.name}'s core characteristics"])
+            .run(name=self.name, queries=[f"{self.name}'s background"])
             .strip()
         )
 
@@ -299,3 +299,4 @@ Relevant context:
             .run(name=self.name, observation=observation)
             .strip()
         )
+

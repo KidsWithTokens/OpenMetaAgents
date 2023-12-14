@@ -29,10 +29,11 @@ for i in town_people.keys(): # generate bk knowledge for everyone
   # logger.log("get sum success")
 # bk = [x for x in back_know]
 for i in town_people.keys(): # add to people mem
-  others = [x for x in town_people.keys() if x != i]
-  others_des = [x for x in back_know if i+': ' not in x]
-  observation = '. '.join(others_des)
-  agents[i].memory.add_memory(' You know the following about people: ' + ' '.join(others_des))
+  # others = [x for x in town_people.keys() if x != i]
+  # others_des = [x for x in back_know if i+': ' not in x]
+  observation = '. '.join(back_know)
+  mem = agents[i].convert_to_first(observation)
+  agents[i].memory.add_memory(mem)
   # logger.log("mem add success")
   action_results[i] = i + ' is ' + town_people[i]["status"]
 
