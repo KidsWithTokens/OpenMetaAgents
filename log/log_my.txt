@@ -28,3 +28,5 @@ problem3: sometimes occure /mnt/iMVR/junde/miniconda3/lib/python3.11/site-packag
 
 
 next: csv log, check if interaction work 
+
+fix observation to mem bug

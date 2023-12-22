@@ -819,3 +819,129 @@ Reaction=Please respond in one line.
 
 the entities' action is: doing nothing in the observation. 
 
+agent_summary_description is: Name: Robber Terrill (age: 16)
+Innate traits: ignorant
+Terrill is a human ruffian. He wears a grimy scarlet cloak. He is a member of the Redbrand ruffians. He doesn't like adventurers, and wants to rob and kill them. 
+
+relevant_mem is: - [December 14, 2023, 09:17 AM] You know the following about people: Postowner Lius: Name: Postowner Lius (age: 69)
+Innate traits: mean, gossipy, arrogant, selfish
+Postowner Lius owns a trading post. Retireadven Daran: Name: Retireadven Daran (age: 55)
+Innate traits: Stubborn, upright, inarticulate, calm
+Daran is a retired adventurer who lives in a tidy little cottage beside an apple orchard. A fit, silver-haired half-elf well over a hundred years old, Daran is a fighter who served as a marshal and herald for many years in the lands of the Dragon Coast, far to the southeast. Upon retiring, he returned to the Neverwinter region, his original home. Postmanager Linene: Name: Postmanager Linene (age: 38)
+Innate traits: competent, forbearing, self-discipline, impressionable 
+Linene runs a trading post. ToweMaster Harbin: Name: ToweMaster Harbin (age: 40)
+Innate traits: pompous
+Harbin is the townmaster of Phandalin. A pompous, old food. Phandalin has no functioning government, but the townsfolk elect someone to serve as townmaster each year. The townmaster serves as a judge in minor disputes and keeps any records that need to be kept.
+- [December 14, 2023, 09:28 AM] I, Postowner Lius, observed the strange traveler in our town. I, Retireadven Daran, reacted with surprise at the traveler's bold statement. I, Postmanager Linene, replied with a hint of amusement at the traveler's antics. I, Towemaster Harbin, sternly warned the traveler of the consequences of their actions. And I, Robber Terrill, grew increasingly uneasy at the traveler's presence in our town.
+- [December 14, 2023, 09:19 AM] I, Postowner Lius, am chatting with Post-Manager. 
+I, Retireadven Daran, am driking the beer. 
+I, Postmanager Linene, am chatting with Postowner Lius. 
+I, ToweMaster Harbin, am calculating the tax of the town. 
+I, Robber Terrill, am chating with Redbrand ruffians members, secretly planing the robbery.
+- [December 14, 2023, 09:29 AM] Robber Terrill observed The action of Postowner Lius is Postowner Lius Postowner Lius's reaction (if anything).. The action of Retireadven Daran is Please provide the specific reaction you would like me to choose from the options provided.. The action of Postmanager Linene is Please let me know if you need any further clarification or details.. The action of ToweMaster Harbin is ToweMaster Harbin said "How dare you speak of the Redbrand ruffians in this town! They are a disgrace and a threat to our peaceful way of life. I will not stand idly by while you plot your nefarious deeds.". The action of Robber Terrill is Would you like to continue the adventure? and reacted by SAY: "Don't tell anyone about our plans, Linene. We don't want to ruin the surprise." 
+
+most_recent_memories is: I observed Postowner Lius and saw him Please respond in one line.
+I observed Retireadven Daran and saw him Please let me know if you have any other questions or need further clarification.
+I observed Postmanager Linene and saw him Please let me know if you need any further clarification or details.
+I observed TowMaster Harbin and saw him Please let me know if you need any further clarification or details.
+I observed Robber Terrill and saw him Please provide the specific reaction you would like me to choose from the options provided. 
+
+full action logic is: Please let me know if you need any further clarification or details. 
+
+action result is:  Please let me know if you need any further clarification or details. 
+
+In global time 5
+Mind Tree of people:  Postowner Lius
+For people Postowner Lius, The observation is: The action of Postowner Lius is Please select one of the above options by typing the corresponding number.. The action of Retireadven Daran is Retireadven Daran "You are a fool for speaking ill of the Redbrand ruffians. They are a necessary evil in these times.". The action of Postmanager Linene is Postmanager Linene Postmanager Linene's reaction (if anything).. The action of ToweMaster Harbin is What would you like ToweMaster Harbin to say or do?. The action of Robber Terrill is Please let me know if you need any further clarification or details. 
+
+the entity i care most is: Postowner Lius
+Please select one of the above options by typing the corresponding number. 
+
+the entities' action is: acting in a suspicious manner. He seems to be hiding something in his office. Perhaps he is involved in some illegal activity or is protecting a valuable secret. It would be best to investigate further and uncover the truth.
+Retireadven Daran
+Retireadven Daran's reaction (if anything) is to scold you for speaking ill of the Redbrand ruffians. He believes that they are a necessary evil in these times and that they provide a necessary service. He may be willing to overlook their misdeeds in order to maintain order in the city.
+Postmanager Linene
+Postmanager Linene's reaction (if anything) is to express her disapproval of your actions. She believes that you are interfering with the work of the postal service and may take action against you.
+ToweMaster Harbin
+ToweMaster Harbin's reaction (if anything) is to express his disappointment in you. He believes that you should be focusing on your duties as a messenger rather than investigating the Postowner's office.
+Robber Terrill
+Robber Terrill's reaction (if anything) is to demand that you hand over any valuables you may have. He is a ruffian and is not afraid to use force to get what he wants.
+Please select one of the above options by typing the corresponding number. 
+
+agent_summary_description is: Name: Postowner Lius (age: 69)
+Innate traits: mean, gossipy, arrogant, selfish
+Postowner Lius owns a trading post. 
+
+relevant_mem is: - [December 14, 2023, 09:17 AM] You know the following about people: Retireadven Daran: Name: Retireadven Daran (age: 55)
+Innate traits: Stubborn, upright, inarticulate, calm
+Daran is a retired adventurer who lives in a tidy little cottage beside an apple orchard. A fit, silver-haired half-elf well over a hundred years old, Daran is a fighter who served as a marshal and herald for many years in the lands of the Dragon Coast, far to the southeast. Upon retiring, he returned to the Neverwinter region, his original home. Postmanager Linene: Name: Postmanager Linene (age: 38)
+Innate traits: competent, forbearing, self-discipline, impressionable 
+Linene runs a trading post. ToweMaster Harbin: Name: ToweMaster Harbin (age: 40)
+Innate traits: pompous
+Harbin is the townmaster of Phandalin. A pompous, old food. Phandalin has no functioning government, but the townsfolk elect someone to serve as townmaster each year. 
+
+most_recent_memories is: I am Postowner Lius. I converted the observation to first person past tense:
+
+* "I observed that the action of Retireadven Daran is Retireadven Daran 'You are a fool for speaking ill of the Redbrand ruffians. They are a necessary evil in these times.'"
+* "I am Postmanager Linene. Postmanager Linene's reaction (if anything) was..."
+* "I am ToweMaster Harbin. What would you like ToweMaster Harbin to say or do? Please let me know."
+* "I am Robber Terrill. Please let me know if you need any further clarification or details."; Postowner Lius observed The action of Postowner Lius is Please respond in one line.. The action of Retireadven Daran is Please let me know if you have any other questions or need further clarification.. The action of Postmanager Linene is Please let me know if you need any further clarification or details.. The action of ToweMaster Harbin is Please let me know if you need any further clarification or details.. The action of Robber Terrill is Please provide the specific reaction you would like me to choose from the options provided. and reacted by  ; I observed Postowner Lius convert the following observation to first person past tense:
+
+Please respond in one line.
+
+I observed Retireadven Daran and let me know if you have any other questions or need further clarification.
+
+I observed Postmanager Linene and let me know if you need any further clarification or details.
+
+I observed Towemaster Harbin and let me know if you need any further clarification or details.
+
+I observed Robber Terrill and provided the specific reaction I would like you to choose from the options provided.; Postowner Lius observed The action of Postowner Lius is Postowner Lius Postowner Lius's reaction (if anything).. The action of Retireadven Daran is Please provide the specific reaction you would like me to choose from the options provided.. The action of Postmanager Linene is Please let me know if you need any further clarification or details.. The action of ToweMaster Harbin is ToweMaster Harbin said "How dare you speak of the Redbrand ruffians in this town! They are a disgrace and a threat to our peaceful way of life. I will not stand idly by while you plot your nefarious deeds.". The action of Robber Terrill is Would you like to continue the adventure? and reacted by   
+
+full action logic is: Please let me know if you need any further clarification or details. 
+
+action result is:  Please let me know if you need any further clarification or details. 
+
+Mind Tree of people:  Retireadven Daran
+For people Retireadven Daran, The observation is: The action of Postowner Lius is Please select one of the above options by typing the corresponding number.. The action of Retireadven Daran is Retireadven Daran "You are a fool for speaking ill of the Redbrand ruffians. They are a necessary evil in these times.". The action of Postmanager Linene is Postmanager Linene Postmanager Linene's reaction (if anything).. The action of ToweMaster Harbin is What would you like ToweMaster Harbin to say or do?. The action of Robber Terrill is Please let me know if you need any further clarification or details. 
+
+the entity i care most is: ToweMaster Harbin
+Please select one of the following options by typing the corresponding number:
+1. "You are a fool for speaking ill of the Redbrand ruffians. They are a necessary evil in these times."
+2. "I cannot let you pass. The road is too dangerous for travelers at the moment."
+3. "You are lucky to have made it this far. The Redbrands have been raiding nearby towns and villages."
+4. "I have important information that could help you on your journey. Are you willing to listen?"
+5. "I'm afraid I cannot help you. The Redbrands have taken over this area and are not allowing anyone to pass." 
+
+the entities' action is: Please select one of the above options by typing the corresponding number. 
+
+agent_summary_description is: Name: Retireadven Daran (age: 55)
+Innate traits: Stubborn, upright, inarticulate, calm
+Daran is a retired adventurer who lives in a tidy little cottage beside an apple orchard. A fit, silver-haired half-elf well over a hundred years old, Daran is a fighter who served as a marshal and herald for many years in the lands of the Dragon Coast, far to the southeast. Upon retiring, he returned to the Neverwinter region, his original home. 
+
+relevant_mem is: - [December 14, 2023, 09:17 AM] You know the following about people: Postowner Lius: Name: Postowner Lius (age: 69)
+Innate traits: mean, gossipy, arrogant, selfish
+Postowner Lius owns a trading post. Postmanager Linene: Name: Postmanager Linene (age: 38)
+Innate traits: competent, forbearing, self-discipline, impressionable 
+Linene runs a trading post. ToweMaster Harbin: Name: ToweMaster Harbin (age: 40)
+Innate traits: pompous
+Harbin is the townmaster of Phandalin. A pompous, old food. Phandalin has no functioning government, but the townsfolk elect someone to serve as townmaster each year. The townmaster serves as a 
+
+most_recent_memories is: I am Retireadven Daran. I said, "You are a fool for speaking ill of the Redbrand ruffians. They are a necessary evil in these times.".; Retireadven Daran observed The action of Postowner Lius is Please respond in one line.. The action of Retireadven Daran is Please let me know if you have any other questions or need further clarification.. The action of Postmanager Linene is Please let me know if you need any further clarification or details.. The action of ToweMaster Harbin is Please let me know if you need any further clarification or details.. The action of Robber Terrill is Please provide the specific reaction you would like me to choose from the options provided. and reacted by REACT: "You are a fool for speaking ill of the Redbrand ruffians. They are a necessary evil in these times."; * Retireadven Daran: I observed Postowner Lius's action of Please respond in one line..
+* Postmanager Linene: I observed Retireadven Daran's action of Please let me know if you have any other questions or need further clarification..
+* ToweMaster Harbin: I observed Postmanager Linene's action of Please let me know if you need any further clarification or details..
+* Robber Terrill: I observed ToweMaster Harbin's action of Please let me know if you need any further clarification or details..
+* Postowner Lius: I observed Robber Terrill's action of Please provide the specific reaction you would like me to choose from the options provided.; Retireadven Daran observed The action of Postowner Lius is Postowner Lius Postowner Lius's reaction (if anything).. The action of Retireadven Daran is Please provide the specific reaction you would like me to choose from the options provided.. The action of Postmanager Linene is Please let me know if you need any further clarification or details.. The action of ToweMaster Harbin is ToweMaster Harbin said "How dare you speak of the Redbrand ruffians in this town! They are a disgrace and a threat to our peaceful way of life. I will not stand idly by while you plot your nefarious deeds.". The action of Robber Terrill is Would you like to continue the adventure? and reacted by   
+
+full action logic is: Retireadven Daran's reaction: REACT: "How dare you speak ill of the Redbrand ruffians! They are a necessary evil in these times." 
+
+action result is:  Retireadven Daran "How dare you speak ill of the Redbrand ruffians! They are a necessary evil in these times." 
+
+Mind Tree of people:  Postmanager Linene
+For people Postmanager Linene, The observation is: The action of Postowner Lius is Please select one of the above options by typing the corresponding number.. The action of Retireadven Daran is Retireadven Daran "You are a fool for speaking ill of the Redbrand ruffians. They are a necessary evil in these times.". The action of Postmanager Linene is Postmanager Linene Postmanager Linene's reaction (if anything).. The action of ToweMaster Harbin is What would you like ToweMaster Harbin to say or do?. The action of Robber Terrill is Please let me know if you need any further clarification or details. 
+
+the entity i care most is: Postowner Lius
+Postowner Lius is the entity you are most likely to interact with in the given observation. 
+
+the entities' action is: doing in the following observation?
+Please select one of the above options by typing the corresponding number. 
+
