@@ -5,19 +5,37 @@ os.environ['TRANSFORMERS_CACHE'] = '/mnt/iMVR/junde/.cache/huggingface/hub'
 
 from langchain.llms import HuggingFacePipeline
 import networkx as nx
-from transformers import pipeline
+from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 import re
 from creat import creat_world
 from prompt import *
 from server import logger
 from datetime import datetime
+import torch
 
 
 logger.configure(dir = './log/log-' + str(datetime.now()))
 logger.log("creating data loader...")
 
-pipeline = pipeline(model="meta-llama/Llama-2-7b-chat-hf", device_map="auto")
-model = HuggingFacePipeline(pipeline=pipeline, model_kwargs={'temperature':0.7})
+llm_model = "meta-llama/Llama-2-7b-chat-hf"
+llm_model = "meta-llama/Llama-2-70b-chat-hf"
+
+# tokenizer = AutoTokenizer.from_pretrained(llm_model)
+# model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-70b-chat-hf")
+
+tokenizer = AutoTokenizer.from_pretrained(llm_model)
+tokenizer.pad_token_id = tokenizer.eos_token_id    # for open-ended generation
+
+model = AutoModelForCausalLM.from_pretrained(
+    llm_model,
+    torch_dtype=torch.float16,
+    load_in_4bit=True,    # changing this to load_in_8bit=True works on smaller models
+    trust_remote_code=True,
+    device_map="auto",    # finds GPU
+)
+
+# pipeline = pipeline(model=llm_model, device_map="auto")
+# model = HuggingFacePipeline(pipeline=pipeline, model_kwargs={'temperature':0.7})
 
 locations, agents = creat_world(model)
 
