@@ -34,8 +34,8 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map="auto",    # finds GPU
 )
 
-# pipeline = pipeline(model=llm_model, device_map="auto")
-# model = HuggingFacePipeline(pipeline=pipeline, model_kwargs={'temperature':0.7})
+pipeline = pipeline("text-generation", model=model, tokenizer=tokenizer)
+model = HuggingFacePipeline(pipeline=pipeline, model_kwargs={'temperature':0.7})
 
 locations, agents = creat_world(model)
 
